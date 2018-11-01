@@ -1,0 +1,12 @@
+{
+    "name":"everettjf-private",
+    "author":"everettjf",
+    "url":"https://everettjf.github.io",
+    "comment":"everettjf's private package",
+    "menu":[
+        {
+            "id":"format-oc-code",
+            "name":"Format Objective C Code"
+        }
+    ]
+}
