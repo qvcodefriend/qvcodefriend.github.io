@@ -1,5 +1,6 @@
 
 
-var onMenuClicked = function(identifier, buffer){
-    return buffer + "\n" + "format oc code";
+var onMenuClicked = function(identifier){
+
+    return {'result':true};
 }

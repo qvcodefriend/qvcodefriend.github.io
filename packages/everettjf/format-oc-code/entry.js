@@ -1,5 +1,4 @@
-var name = "everettjf's toolbox";
-var manifest = [
+var entry = [
     'util.js',
     'main.js'
 ];
