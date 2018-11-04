@@ -4,11 +4,11 @@ Code Friend is a Xcode extension that offers many utilities for a variety of usa
 
 Until now , we can:
 
-1. Convert selected text into ASCII Text.
+1) Convert selected text into ASCII Text.
 
 ![](image/codefriend-asciitext.gif)
 
-2. Sort selected lines.
+2) Sort selected lines.
 
 ![](image/codefriend-sort.gif)
 
