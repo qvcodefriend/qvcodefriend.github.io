@@ -1,6 +1,6 @@
 ## Code Friend
 
-Code Friend is a Xcode extension that offers many utilities for a variety of usages.
+Code Friend is an Xcode extension that contains many utilities for a variety of usages.
 
 [Mac App Store](https://itunes.apple.com/cn/app/code-friend/id1441249580)
 
