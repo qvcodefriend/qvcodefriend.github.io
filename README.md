@@ -18,6 +18,17 @@ Until now , you can:
 
 In the near future, `Code Friend` will offer more utitlies for you.
 
+
+## Feedback
+
+Create Issues [Here](https://github.com/qvcodefriend/qvcodefriend.github.io/issues)
+
+or 
+
+Join WeChat Group
+
+![](image/codefriend_wechatgroup_small.jpg)
+
 ---
 
 *Enjoy!*
