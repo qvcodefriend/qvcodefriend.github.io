@@ -2,7 +2,9 @@
 
 Code Friend is a Xcode extension that offers many utilities for a variety of usages.
 
-Until now , we can:
+[Mac App Store](https://itunes.apple.com/cn/app/code-friend/id1441249580)
+
+Until now , you can:
 
 1) Convert selected text into ASCII Text.
 
