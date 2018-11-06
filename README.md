@@ -2,7 +2,9 @@
 
 Code Friend is an Xcode extension that contains many utilities for a variety of usages.
 
-[Mac App Store](https://itunes.apple.com/cn/app/code-friend/id1441249580)
+Install from [Mac App Store](https://itunes.apple.com/cn/app/code-friend/id1441249580) and see `How to enable in Xcode` section below.
+
+---
 
 Until now , you can:
 
@@ -13,6 +15,14 @@ Until now , you can:
 2) Sort selected lines.
 
 ![](image/codefriend-sort.gif)
+
+
+## How to enable in Xcode
+
+System Preferences -> Extensions -> Xcode Source Editor -> Code Friend Extension
+
+![](image/enable-step1.png)
+![](image/enable-step2.png)
 
 ## Future
 
