@@ -5,8 +5,16 @@
     "comment":"everettjf's private package",
     "menu":[
         {
-            "id":"format-oc-code",
-            "name":"Format Objective C Code"
+            "id":"block-comment",
+            "name":"Block Comment"
+        },
+        {
+            "id":"jump.up-20-lines",
+            "name":"Jump Up 20 Lines"
+        },
+        {
+            "id":"jump.down-20-lines",
+            "name":"Jump Down 20 Lines"
         }
     ]
 }
