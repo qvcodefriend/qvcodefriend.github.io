@@ -1,8 +1,8 @@
 {
-    "name":"everettjf-private",
+    "name":"everettjf private package",
     "author":"everettjf",
-    "url":"https://everettjf.github.io",
-    "comment":"everettjf's private package",
+    "support":"https://everettjf.github.io",
+    "description":"Block comment and jump lines",
     "menu":[
         {
             "id":"block-comment",
