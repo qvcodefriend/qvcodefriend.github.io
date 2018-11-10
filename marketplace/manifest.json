@@ -1,0 +1,20 @@
+{
+    "name":"Code Friend Marketplace",
+    "version":"1.0",
+    "updatedAt":"2018-11-11",
+    "announcement":"Welcome to Code Friend Marketplace :)",
+    "top":[
+        {
+            "name":"Code Friend Builtin Package",
+            "author":"everettjf",
+            "website":"https://codefriend.github.io",
+            "install":"https://codefriend.github.io/packages/builtin"
+        },
+        {
+            "name":"Code Friend DLC Pack 1",
+            "author":"everettjf",
+            "website":"https://codefriend.github.io",
+            "install":"https://codefriend.github.io/packages/builtin"
+        }
+    ]
+}
