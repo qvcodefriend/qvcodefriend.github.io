@@ -1,0 +1,3 @@
+var entry = [
+    'main.js'
+];

@@ -1,0 +1,41 @@
+{
+    "name":"Code Friend Builtin Package",
+    "version":"1.0",
+    "author":"everettjf",
+    "website":"https://everettjf.github.io",
+    "description":"ASCII Text and sort lines",
+    "menu":[
+        {
+            "id":"sort-lines.ascending-case-sensitive",
+            "name":"Sort lines (ascending, case sensitive)"
+        },
+        {
+            "id":"sort-lines.ascending-case-insensitive",
+            "name":"Sort lines (ascending, case insensitive)"
+        },
+        {
+            "id":"sort-lines.decending-case-sensitive",
+            "name":"Sort lines (decending, case sensitive)"
+        },
+        {
+            "id":"sort-lines.decending-case-insensitive",
+            "name":"Sort lines (decending, case insensitive)"
+        },
+        {
+            "id":"ascii-text.style1",
+            "name":"Convert to ASCII text (style 1)"
+        },
+        {
+            "id":"ascii-text.style2",
+            "name":"Convert to ASCII text (style 2)"
+        },
+        {
+            "id":"ascii-text.style3",
+            "name":"Convert to ASCII text (style 3)"
+        },
+        {
+            "id":"about",
+            "name":"About Code Friend"
+        }
+    ]
+}
