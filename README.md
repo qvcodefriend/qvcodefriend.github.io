@@ -1,32 +1,48 @@
 ## Code Friend
 
-Code Friend is an Xcode extension that contains many utilities for a variety of usages.
+Code Friend is an Xcode extension development interface for the Javascript language. Anyone can create Xcode extension utilities using Javascript language.
 
 Install from [Mac App Store](https://itunes.apple.com/cn/app/code-friend/id1441249580) and see `How to enable in Xcode` section below.
 
+For develop Xcode extension using Javascript, please see [How To Create Your Own Package](/develop).
+
 ---
 
-Until now , you can:
+### Builtin utilities
 
+For the builtin utilities, you could:
 1) Convert selected text into ASCII Text.
-
 ![](image/codefriend-asciitext.gif)
-
 2) Sort selected lines.
-
 ![](image/codefriend-sort.gif)
 
 
-## How to enable in Xcode
+### DLC Pack 1
+
+After install the DLC Pack 1 from Code Friend macOS app, you could :
+3) Comment code block.
+4) Jump to up/down 20 line.
+
+
+### More you can do
+
+Of course, more you can do if you create your own package using Javascript language.
+
+See [How To Create Your Own Package](/develop).
+
+### Marketplace
+
+See [Code Friend Marketplace](https://qvcodefriend.github.io/marketplace/) for a list of packages shared by our code friend in the world.
+
+If you want to share your utilities with the world, create a pull request to [this file](https://github.com/qvcodefriend/qvcodefriend.github.io/blob/master/marketplace/README.md) in this repo.
+
+
+### How to enable in Xcode
 
 System Preferences -> Extensions -> Xcode Source Editor -> Code Friend Extension
 
 ![](image/enable-step1.png)
 ![](image/enable-step2.png)
-
-## Future
-
-In the near future, `Code Friend` will offer more utitlies for you.
 
 
 ## Feedback
@@ -42,3 +58,5 @@ Join WeChat Group
 ---
 
 *Enjoy!*
+
+

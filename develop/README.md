@@ -1,4 +1,4 @@
-## How to develop an Code Friend Package
+## How To Create Your Own Package
 
 
 
