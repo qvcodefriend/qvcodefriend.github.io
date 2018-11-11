@@ -34,7 +34,7 @@ See [How To Create Your Own Package](/develop).
 
 See [Code Friend Marketplace](https://qvcodefriend.github.io/marketplace/) for a list of packages shared by our code friend in the world.
 
-If you want to share your utilities with the world, create a pull request to [this file](https://github.com/qvcodefriend/qvcodefriend.github.io/blob/master/marketplace/README.md) in this repo.
+If you want to share your utilities with the world, create a pull request to [this file](https://github.com/qvcodefriend/qvcodefriend.github.io/blob/master/marketplace/README.md).
 
 
 ### How to enable in Xcode
