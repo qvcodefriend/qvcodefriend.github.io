@@ -65,6 +65,9 @@ var onMenuClicked = function(identifier){
 2. `entry.js` describes all the Javascript files and the run order the menu includes.
 3. Menu id can include a `dot` for supply 2 or more menu items in one menu directory. e.g. [See the Jump Menu Id](https://github.com/qvcodefriend/qvcodefriend.github.io/blob/master/packages/dlc/manifest.json)
 
+### Open Source Packages
+
+The `builtin` and `DLC Pack 1` is opensource under [Here](https://github.com/qvcodefriend/qvcodefriend.github.io/tree/master/packages)
 
 ### API Document
 

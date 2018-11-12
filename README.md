@@ -6,7 +6,7 @@ Code Friend is an Xcode extension, and it provide development interface for the 
 
 Install from [Mac App Store](https://itunes.apple.com/cn/app/code-friend/id1441249580) and see `How to enable in Xcode` section below.
 
-For develop Xcode extension using Javascript, please see [How To Create Your Own Package](https://qvcodefriend.github.io/develop).
+For developing an Xcode extension using Javascript, please see [How To Create Your Own Package](https://qvcodefriend.github.io/develop).
 
 ---
 
