@@ -22,7 +22,9 @@ For the builtin utilities, you could:
 ### DLC Pack 1
 
 After install the DLC Pack 1 from Code Friend macOS app, you could :
+
 3) Comment code block.
+
 4) Jump to up/down 20 line.
 
 
