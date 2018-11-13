@@ -1,3 +1,0 @@
-var entry = [
-    'main.js'
-];
