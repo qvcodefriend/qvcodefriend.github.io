@@ -76,7 +76,7 @@ There are two global variable now, `invocation` and `system`.
 
 #### invocation
 
-*getter and setter*
+##### getter and setter
 
 1) [getter] invocation.contentUTI
 
@@ -143,7 +143,7 @@ But in most cases, there is only 1 selection. And the `firstSelection` came out.
 
 @return integer : Line count of current file.
 
-*method*
+##### method
 
 1) invocation.insertLinesAtIndex(ArrayOfString,Integer)
 
