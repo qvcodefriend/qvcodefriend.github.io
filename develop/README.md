@@ -2,7 +2,7 @@
 
 ## How To Create Your Own Package
 
-`Code Friend`'s builtin utilities are implemented in `Javascript` language, for examples, `ASCII Text` and `Sort lines`. Source code of them is [Here](https://github.com/qvcodefriend/qvcodefriend.github.io/tree/master/packages/builtin).
+`Code Friend`'s builtin utilities are implemented in `JavaScript` language, for examples, `ASCII Text` and `Sort lines`. Source code of them is [Here](https://github.com/qvcodefriend/qvcodefriend.github.io/tree/master/packages/builtin).
 
 This is called a package. 
 ![](/media/15419514349346.jpg)
@@ -61,8 +61,8 @@ var onMenuClicked = function(identifier){
 
 ### More Detail
 
-1. Each menu's Javascript is run under separated context.
-2. `entry.js` describes all the Javascript files and the run order the menu includes.
+1. Each menu's JavaScript is run under separated context.
+2. `entry.js` describes all the JavaScript files and the run order the menu includes.
 3. Menu id can include a `dot` for supply 2 or more menu items in one menu directory. e.g. [See the Jump Menu Id](https://github.com/qvcodefriend/qvcodefriend.github.io/blob/master/packages/dlc/manifest.json)
 
 ### Open Source Packages

@@ -2,11 +2,11 @@
 
 ## Code Friend
 
-Code Friend is an Xcode extension, and it provide development interface for the Javascript language. Anyone can create Xcode extension utilities using Javascript.
+Code Friend is an Xcode extension, and it provide development interface for the JavaScript language. Anyone can create Xcode extension utilities using JavaScript.
 
 Install from [Mac App Store](https://itunes.apple.com/cn/app/code-friend/id1441249580) and see `How to enable in Xcode` section below.
 
-For developing an Xcode extension using Javascript, please see [How To Create Your Own Package](https://qvcodefriend.github.io/develop).
+For developing an Xcode extension using JavaScript, please see [How To Create Your Own Package](https://qvcodefriend.github.io/develop).
 
 ---
 
@@ -30,7 +30,7 @@ After install the DLC Pack 1 from Code Friend macOS app, you could :
 
 ### More you can do
 
-Of course, more you can do if you create your own package using Javascript language.
+Of course, more you can do if you create your own package using JavaScript language.
 
 See [How To Create Your Own Package](https://qvcodefriend.github.io/develop).
 
