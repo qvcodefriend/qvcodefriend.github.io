@@ -77,37 +77,129 @@ There are two global variable now, `invocation` and `system`.
 
 *getter and setter*
 
-1. [getter] invocation.contentUTI
-2. [getter] invocation.tabWidth
-3. [getter] invocation.indentationWidth
-4. [getter] invocation.usesTabsForIndentation
-5. [getter] invocation.selectionExist
-6. [getter,setter] invocation.selections
-7. [getter] invocation.firstSelection
-7. [getter] invocation.selectionStrings
-7. [getter] invocation.selectionLines
-6. [getter,setter] invocation.completeBuffer
-6. [getter,setter] invocation.lines
-7. [getter] invocation.lineCount
+1) [getter] invocation.contentUTI
 
-> selections is an array of [beginLine,beginCol,endLine,endCol]
-> so firstSelection is [beginLine,beginCol,endLine,endCol]
+@return string : The Unique Type Identifier (UTI) of the content in the buffer.
+
+2) [getter] invocation.tabWidth
+
+@return integer : The number of space characters represented by a tab character in the buffer.
+
+3) [getter] invocation.indentationWidth
+
+@return integer : The number of space characters used for indentation of the text in the buffer.
+
+4) [getter] invocation.usesTabsForIndentation
+
+@return integer : A Boolean value that indicates whether tabs are used for indentation.
+
+5) [getter] invocation.selectionExist
+
+@return boolean : Whether there is selection of text.
+
+6) [getter,setter] invocation.selections
+
+@return array of array of integer : the 2nd array is always 4 elements, which are `[beginLine,beginCol,endLine,endCol]`. So the value of `selections` is 
+
+```
+[
+[beginLine,beginCol,endLine,endCol],
+[beginLine,beginCol,endLine,endCol],
+[beginLine,beginCol,endLine,endCol]
+]
+```
+
+But in most cases, there is only 1 selection. And the `firstSelection` came out.
+
+7) [getter] invocation.firstSelection
+
+@return array of integer : always 4 elements.
+
+```
+[beginLine,beginCol,endLine,endCol]
+```
+
+8) [getter] invocation.selectionStrings
+
+@return array of string : All the strings represented by `selections`. Similar to `selections`, in most cases there is only 1 string.
+
+9) [getter] invocation.selectionLines
+
+@return array of string : All the strings represented by `selections`. `selectionLines` join all the lines represented by `selection` together.
+
+10) [getter,setter] invocation.completeBuffer
+
+@return string : All the content of current file.
+@setter : Assign string to `completeBuffer` will overwrite the content of current file.
+
+11) [getter,setter] invocation.lines
+
+@return array of strings : All the lines of current file.
+@setter : Assign array of strings to `lines` will overwrite the content of current file.
+
+
+12) [getter] invocation.lineCount
+
+@return integer : Line count of current file.
 
 *method*
 
-1. invocation.insertLinesAtIndex(ArrayOfString,Integer)
-2. invocation.appendLines(ArrayOfString)
-3. invocation.removeLinesFromTo(Integer,Integer)
-4. invocation.assignLineAtIndex(String,Integer)
+1) invocation.insertLinesAtIndex(ArrayOfString,Integer)
+
+Insert lines at specified line index.
+
+```
+// Insert 3 lines in front of current file.
+invocation.insertLinesAtIndex([
+    'first line',
+    'second line',
+    'third line'
+    ],0);
+```
+
+2) invocation.appendLines(ArrayOfString)
+
+Append lines to the end of current file.
+
+```
+// Append 3 lines to the end of current file.
+invocation.appendLines([
+    'first line',
+    'second line',
+    'third line'
+    ]);
+```
+
+
+3) invocation.removeLinesFromTo(Integer,Integer)
+
+Remove lines from line index to line index.
+
+```
+// Remove lines from index 5 to 10
+invocation.removeLinesFromTo(5,10);
+```
+
+4) invocation.assignLineAtIndex(String,Integer)
+
+Assign string to line at index.
+
+```
+// Overwrite the line 1 to 'Hello world'
+invocation.assignLineAtIndex('Hello world',1);
+```
 
 #### system
 
 *method*
 
-1. system.log(String)
-2. system.openURL(String)
+1) system.log(String)
 
+Log string using `NSLog`.
 
+2) system.openURL(String)
+
+Open URL.
 
 ---
 
