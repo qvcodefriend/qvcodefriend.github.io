@@ -56,6 +56,7 @@ Create Issues [Here](https://github.com/qvcodefriend/qvcodefriend.github.io/issu
 or 
 
 Join WeChat Group
+
 ![](/media/15419504126835.jpg)
 
 
