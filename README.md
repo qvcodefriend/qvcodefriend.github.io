@@ -53,12 +53,6 @@ System Preferences -> Extensions -> Xcode Source Editor -> Code Friend Extension
 
 Create Issues [Here](https://github.com/qvcodefriend/qvcodefriend.github.io/issues)
 
-or 
-
-Join WeChat Group
-
-![](/media/15419504126835.jpg)
-
 
 ---
 
